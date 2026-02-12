@@ -5,7 +5,7 @@ library(metafor)
 library(ggplot2)
 ##input data
 library(dplyr)
-dat <- read.csv("PLA2G2A_rs11573156.csv", header = T, sep=",")
+dat <- read.csv("test_data.csv", header = T, sep=",")
 
 
 dat <- dat %>%
